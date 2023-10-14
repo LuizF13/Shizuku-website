@@ -28,7 +28,6 @@ nav .logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 30px;
 }
 
 nav .logo img {
@@ -36,6 +35,7 @@ nav .logo img {
     height: 50px;
     margin-right: 10px;
     border-radius: 100%;
+    transition: 2s all ease-in-out;
 }
 
 nav .logo a {
@@ -75,7 +75,7 @@ nav .menu-btn i{
     cursor: pointer;
     display: none;
 }
-@media (max-width: 920px) {
+@media (max-width: 930px) {
     nav .menu-btn i{
         display: block;
     }
@@ -104,5 +104,9 @@ nav .menu-btn i{
     nav ul li a:hover{
         background: none;
         color: #000000f3;;
-    }   
+    }
+
+    nav .logo img {
+        display: none;
+    }
 }
