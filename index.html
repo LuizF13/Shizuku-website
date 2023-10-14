@@ -1,32 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shizuku | website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/src/public/css/style.css">
+    <title>Menu responsivo</title>
 </head>
 <body>
-    <header>
-        <nav>
-        <div class="logo">
-            <img src="/src/public/imgs/shizuko.jpeg">
-            <a href="/">Shizuku</a>
+    <nav>
+        <div class="logo"> logo </div>
+
+        <div class="menu-btn">
+            <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
         </div>
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-            <ul class="nav-list">
-                <li><a href="/">Inicio</a></li>
-                <li><a href="/">Comandos</a></li>
-                <li><a href="/">Dashboard</a></li>
-                <li><a href="/">Premium</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main></main>
+
+        <ul>
+            <li> <a href="#" class="active"> Home </a> </li>
+            <li> <a href="#"> Sobre</a> </li>
+            <li> <a href="#"> Serviços</a> </li>
+            <li> <a href="#"> Galeria</a> </li>
+            <li> <a href="#"> Preços</a> </li>
+        </ul>
+    </nav>
     <script src="/src/public/js/mobile-menu.js"></script>
 </body>
 </html>
